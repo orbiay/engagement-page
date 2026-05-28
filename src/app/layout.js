@@ -1,4 +1,5 @@
 import './globals.css';
+import Header from './Header';
 
 export const metadata = {
   title: 'Nos engagements | Experience Morocco',
@@ -18,28 +19,14 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body>
-        <header className="header">
-          <div className="container header-content">
-            <a href="/" className="logo">
-              Experience <span>Morocco</span>
-            </a>
-            <nav className="nav-links">
-              <a href="#">Our Offerings</a>
-              <a href="#">Get Inspired</a>
-              <a href="#">About</a>
-              <a href="#">Destinations</a>
-              <a href="#">Blog</a>
-              <a href="#" className="active">Engagements</a>
-            </nav>
-          </div>
-        </header>
+        <Header />
 
         <main>{children}</main>
 
         <footer className="footer">
           <div className="container footer-content">
             <div className="footer-section">
-              <h4>Experience Morocco</h4>
+              <img src="/logo-centered.png" alt="Experience Morocco" className="footer-logo" />
               <p style={{ color: '#b8b8b8', fontSize: '0.9rem', lineHeight: 1.7 }}>
                 Voyages sur mesure au Maroc, conçus avec des experts locaux passionnés
                 par leur pays et son patrimoine.
@@ -53,6 +40,7 @@ export default function RootLayout({ children }) {
                 <li><a href="#">About</a></li>
                 <li><a href="#">Destinations</a></li>
                 <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact Us</a></li>
               </ul>
             </div>
             <div className="footer-section">

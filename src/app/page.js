@@ -6,17 +6,11 @@ export default function CommitmentsPage() {
       {/* HERO */}
       <section className={styles.hero}>
         <div className={styles.heroInner}>
-          <span className={styles.heroEyebrow}>Nos engagements</span>
           <h1 className={styles.heroTitle}>
-            Pour un voyage au Maroc plus authentique et plus responsable
+            Welcome to Experience Morocco
           </h1>
           <p className={styles.heroSubtitle}>
-            Chez Experience Morocco, nous croyons que le voyage doit bénéficier autant à
-            ceux qui partent qu’à ceux qui accueillent. C’est pourquoi nous construisons
-            chaque itinéraire main dans la main avec nos partenaires locaux.
-          </p>
-          <p className={styles.heroTagline}>
-            EXPERTS <strong>LOCAUX.</strong> EXPÉRIENCES <strong>SUR MESURE.</strong> IMPACT <strong>RÉEL.</strong>
+            Delve into our unique culture and enjoy a journey like no other
           </p>
         </div>
       </section>
