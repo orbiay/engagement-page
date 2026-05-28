@@ -8,6 +8,7 @@ const LINKS = [
   { label: 'ABOUT', href: '#' },
   { label: 'DESTINATIONS', href: '#' },
   { label: 'BLOG', href: '#' },
+  { label: 'IMPACT', href: '/' },
   { label: 'CONTACT US', href: '#' },
 ];
 
