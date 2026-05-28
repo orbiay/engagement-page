@@ -7,10 +7,12 @@ export default function CommitmentsPage() {
       <section className={styles.hero}>
         <div className={styles.heroInner}>
           <h1 className={styles.heroTitle}>
-            Welcome to Experience Morocco
+            Experience Morocco more deeply, and leave it better.
           </h1>
-          <p className={styles.heroSubtitle}>
-            Delve into our unique culture and enjoy a journey like no other
+        </div>
+        <div className={styles.heroBottomText}>
+          <p>
+            At Experience Morocco, we believe travel should create value for those who welcome you as much as for those who explore. Every journey is designed to support local communities, preserve traditions, and reveal Morocco in its most authentic form.
           </p>
         </div>
       </section>
@@ -18,21 +20,13 @@ export default function CommitmentsPage() {
       {/* INTRO */}
       <section className="container">
         <div className={styles.introSection}>
-          <span className={styles.introEyebrow}>Notre approche</span>
-          <h2 className={styles.introTitle}>Voyager mieux, c’est possible</h2>
+          <span className={styles.introEyebrow}>Our approach</span>
+          <h2 className={styles.introTitle}>“Authentic. Local. Thoughtful.”</h2>
           <p className={styles.introText}>
-            Depuis nos débuts, nous sommes convaincus que voyager local, c’est donner tout
-            son sens au tourisme. En connectant directement les voyageurs avec des guides,
-            artisans et hôteliers marocains, nous créons des expériences plus authentiques,
-            plus humaines, et plus enrichissantes pour tous.
-          </p>
-          <p className={styles.introText}>
-            Chaque dirham investi dans un voyage Experience Morocco soutient des familles,
-            préserve un savoir-faire ou protège un paysage. C’est notre engagement&nbsp;: un
-            tourisme qui prend soin du Maroc, de ses habitants et de ceux qui viennent le découvrir.
+            Our approach is simple: stay close to what makes Morocco truly special. By collaborating with selected local partners, we design journeys that feel genuine, immersive, and mindful of the places and people behind every experience.
           </p>
           <a href="#engagements" className="btn btn-primary" style={{ marginTop: '1.5rem' }}>
-            Découvrir nos engagements
+            DISCOVER BEYOND
           </a>
         </div>
       </section>
@@ -43,19 +37,19 @@ export default function CommitmentsPage() {
           <div className={styles.statsGrid}>
             <div className={styles.statItem}>
               <div className={styles.statNumber}>100%</div>
-              <div className={styles.statLabel}>Partenaires marocains</div>
+              <div className={styles.statLabel}>MOROCCAN PARTNERS</div>
             </div>
             <div className={styles.statItem}>
               <div className={styles.statNumber}>+85%</div>
-              <div className={styles.statLabel}>Du budget reste au Maroc</div>
+              <div className={styles.statLabel}>OF BUDGET STAYS IN MOROCCO</div>
             </div>
             <div className={styles.statItem}>
               <div className={styles.statNumber}>12</div>
-              <div className={styles.statLabel}>Régions couvertes</div>
+              <div className={styles.statLabel}>REGIONS COVERED</div>
             </div>
             <div className={styles.statItem}>
               <div className={styles.statNumber}>4.9/5</div>
-              <div className={styles.statLabel}>Note de nos voyageurs</div>
+              <div className={styles.statLabel}>TRAVELERS' RATING</div>
             </div>
           </div>
         </div>
@@ -63,11 +57,10 @@ export default function CommitmentsPage() {
 
       {/* PILLARS */}
       <section id="engagements" className={`${styles.pillarsSection} container`}>
-        <span className="section-eyebrow">Nos trois piliers</span>
-        <h2 className="section-title">Pour qui faisons-nous la différence ?</h2>
+        <span className="section-eyebrow">CAUSES CLOSE TO OUR HEART</span>
+        <h2 className="section-title">why do they matter?</h2>
         <p className="section-lead">
-          Trois engagements concrets guident chacune de nos décisions, de la conception
-          d’un itinéraire au choix de nos hébergements.
+          Behind every journey lie real people and initiatives shaping Morocco’s future. Through meaningful partnerships, we support projects that create opportunity, foster inclusion, and strengthen local communities.
         </p>
 
         <div className={styles.pillarsGrid}>
@@ -75,17 +68,15 @@ export default function CommitmentsPage() {
             <img
               className={styles.pillarImage}
               src="https://images.unsplash.com/photo-1531219432768-9f540ec7a4ff?auto=format&fit=crop&q=80&w=900"
-              alt="Artisans et habitants marocains"
+              alt="Jadara Foundation"
             />
             <div className={styles.pillarBody}>
-              <div className={styles.pillarNumber}>Engagement 01</div>
-              <h3 className={styles.pillarTitle}>Agir pour les populations</h3>
+              <div className={styles.pillarNumber}>CAUSE 1 — JADARA FOUNDATION</div>
+              <h3 className={styles.pillarTitle}>Investing in the next generation</h3>
               <p className={styles.pillarText}>
-                Nous travaillons exclusivement avec des guides, chauffeurs, cuisiniers et
-                artisans marocains, rémunérés à leur juste valeur. Notre approche
-                local-first soutient l’économie des médinas comme celle des villages de l’Atlas.
+                Through our partnership with the Jadara Foundation, we support talented Moroccan youth by helping them access education, mentorship, and new opportunities — empowering them to build their future.
               </p>
-              <a href="#populations" className={styles.pillarLink}>En savoir plus →</a>
+              <a href="#populations" className={styles.pillarLink}>LEARN MORE →</a>
             </div>
           </article>
 
@@ -93,17 +84,15 @@ export default function CommitmentsPage() {
             <img
               className={styles.pillarImage}
               src="https://images.unsplash.com/photo-1489493585363-d69421e0edd3?auto=format&fit=crop&q=80&w=900"
-              alt="Paysages naturels marocains"
+              alt="Sporting Club Casablanca"
             />
             <div className={styles.pillarBody}>
-              <div className={styles.pillarNumber}>Engagement 02</div>
-              <h3 className={styles.pillarTitle}>Agir pour la planète</h3>
+              <div className={styles.pillarNumber}>CAUSE 2 — SPORTING CLUB CASABLANCA</div>
+              <h3 className={styles.pillarTitle}>Empowering women through sport</h3>
               <p className={styles.pillarText}>
-                Du désert d’Erg Chebbi aux oasis du Drâa, nous protégeons les écosystèmes
-                fragiles du Maroc. Nous réinvestissons une partie de chaque voyage dans
-                des projets de reforestation et de gestion durable de l’eau.
+                By supporting Sporting Club Casablanca, we contribute to a project that promotes women’s empowerment and opportunity, through a team that is redefining the future of football in Morocco.
               </p>
-              <a href="#planete" className={styles.pillarLink}>En savoir plus →</a>
+              <a href="#planete" className={styles.pillarLink}>LEARN MORE →</a>
             </div>
           </article>
 
@@ -111,17 +100,15 @@ export default function CommitmentsPage() {
             <img
               className={styles.pillarImage}
               src="https://images.unsplash.com/photo-1559666126-84f389727b9a?auto=format&fit=crop&q=80&w=900"
-              alt="Voyageurs explorant le Maroc autrement"
+              alt="Women-led Cooperatives"
             />
             <div className={styles.pillarBody}>
-              <div className={styles.pillarNumber}>Engagement 03</div>
-              <h3 className={styles.pillarTitle}>Transformer le tourisme</h3>
+              <div className={styles.pillarNumber}>CAUSE 3 — WOMEN-LED COOPERATIVES</div>
+              <h3 className={styles.pillarTitle}>Supporting local women, one journey at a time</h3>
               <p className={styles.pillarText}>
-                Hors-saison, hors des sentiers battus, à pied, en train ou à dos de
-                mulet&nbsp;: nous proposons des manières de voyager qui ont du sens, et qui
-                évitent le tourisme de masse des grandes villes impériales.
+                Across Morocco, we actively work with women-led cooperatives and encourage our guests to visit and engage with at least one during their journey. Through these encounters, we help create direct opportunities for local women while offering travelers a more authentic connection to the culture.
               </p>
-              <a href="#tourisme" className={styles.pillarLink}>En savoir plus →</a>
+              <a href="#tourisme" className={styles.pillarLink}>LEARN MORE →</a>
             </div>
           </article>
         </div>
@@ -135,29 +122,26 @@ export default function CommitmentsPage() {
               <img
                 className={styles.deepImage}
                 src="https://images.unsplash.com/photo-1597211833712-5e41faa202ea?auto=format&fit=crop&q=80&w=1200"
-                alt="Coopérative de femmes au Maroc"
+                alt="Jadara Foundation"
               />
               <div className={styles.deepBadge}>
                 <strong>+200</strong>
-                <span>Familles partenaires soutenues</span>
+                <span>Youth supported</span>
               </div>
             </div>
             <div>
-              <span className={styles.deepEyebrow}>Engagement 01 — Populations</span>
-              <h2 className={styles.deepTitle}>Un tourisme qui profite aux Marocains</h2>
+              <span className={styles.deepEyebrow}>CAUSE 01 — JADARA FOUNDATION</span>
+              <h2 className={styles.deepTitle}>Investing in the next generation</h2>
               <p className={styles.deepText}>
-                Nous croyons que la meilleure manière de découvrir le Maroc, c’est de
-                rencontrer ceux qui le font vivre. C’est pourquoi 100&nbsp;% de nos guides
-                sont marocains, 100&nbsp;% de nos riads sont indépendants et familiaux, et
-                chaque expérience est conçue pour faire circuler la valeur localement.
+                Through our partnership with the Jadara Foundation, we support talented Moroccan youth by helping them access education, mentorship, and new opportunities — empowering them to build their future.
               </p>
               <ul className={styles.deepList}>
-                <li>Rémunération transparente et au-dessus des standards locaux</li>
-                <li>Partenariats long terme avec coopératives de femmes (argan, tapis, poterie)</li>
-                <li>Formation continue de nos guides aux pratiques responsables</li>
-                <li>Hébergements indépendants privilégiés aux grandes chaînes</li>
+                <li>Scholarships for higher education</li>
+                <li>Mentorship programs with industry professionals</li>
+                <li>Career guidance and professional development</li>
+                <li>Creating pathways for social mobility</li>
               </ul>
-              <a href="#" className="btn btn-primary">Découvrir nos partenaires</a>
+              <a href="#" className="btn btn-primary">Discover our partners</a>
             </div>
           </div>
         </div>
@@ -166,11 +150,9 @@ export default function CommitmentsPage() {
       {/* QUOTE */}
       <section className={styles.quoteSection}>
         <p className={styles.quoteText}>
-          “Voyager autrement, c’est laisser une trace positive partout où l’on passe.
-          Au Maroc, cela veut dire écouter, apprendre, et redonner aux communautés qui
-          nous accueillent.”
+          “Traveling differently means leaving a positive mark wherever we go. In Morocco, that means listening, learning, and giving back to the communities that welcome us.”
         </p>
-        <div className={styles.quoteAuthor}>— L’équipe Experience Morocco</div>
+        <div className={styles.quoteAuthor}>— EXPERIENCE MOROCCO TEAM</div>
       </section>
 
       {/* DEEP DIVE 2 */}
@@ -181,29 +163,26 @@ export default function CommitmentsPage() {
               <img
                 className={styles.deepImage}
                 src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&q=80&w=1200"
-                alt="Désert et palmeraies du Maroc"
+                alt="Sporting Club Casablanca"
               />
               <div className={styles.deepBadge}>
-                <strong>5 000+</strong>
-                <span>Arbres plantés depuis 2022</span>
+                <strong>1st</strong>
+                <span>Women's Champions League Finalists</span>
               </div>
             </div>
             <div>
-              <span className={styles.deepEyebrow}>Engagement 02 — Planète</span>
-              <h2 className={styles.deepTitle}>Préserver les paysages qui nous font rêver</h2>
+              <span className={styles.deepEyebrow}>CAUSE 02 — SPORTING CLUB CASABLANCA</span>
+              <h2 className={styles.deepTitle}>Empowering women through sport</h2>
               <p className={styles.deepText}>
-                Le Maroc fait face à des défis climatiques majeurs&nbsp;: stress hydrique,
-                désertification, érosion côtière. Nous agissons à notre échelle pour
-                que les paysages que nos voyageurs admirent aujourd’hui soient encore là
-                pour les générations à venir.
+                By supporting Sporting Club Casablanca, we contribute to a project that promotes women’s empowerment and opportunity, through a team that is redefining the future of football in Morocco.
               </p>
               <ul className={styles.deepList}>
-                <li>Compensation carbone obligatoire sur chaque vol intérieur</li>
-                <li>Soutien à des projets de reforestation dans l’Atlas et le Souss</li>
-                <li>Hébergements à faible empreinte (eau, électricité, déchets)</li>
-                <li>Itinéraires construits pour limiter les distances en 4×4</li>
+                <li>Aiding professional development for female athletes</li>
+                <li>Championing gender equality in sports</li>
+                <li>Inspiring young girls across the country</li>
+                <li>Investing in world-class training facilities</li>
               </ul>
-              <a href="#" className="btn btn-primary">Lire notre charte environnementale</a>
+              <a href="#" className="btn btn-primary">Support the team</a>
             </div>
           </div>
         </div>
@@ -217,29 +196,26 @@ export default function CommitmentsPage() {
               <img
                 className={styles.deepImage}
                 src="https://images.unsplash.com/photo-1565689876697-e467b6c54da2?auto=format&fit=crop&q=80&w=1200"
-                alt="Marché traditionnel au Maroc"
+                alt="Women-led Cooperatives"
               />
               <div className={styles.deepBadge}>
-                <strong>70%</strong>
-                <span>De voyages hors haute saison</span>
+                <strong>50+</strong>
+                <span>Cooperatives supported</span>
               </div>
             </div>
             <div>
-              <span className={styles.deepEyebrow}>Engagement 03 — Tourisme</span>
-              <h2 className={styles.deepTitle}>Réinventer la manière de visiter le Maroc</h2>
+              <span className={styles.deepEyebrow}>CAUSE 03 — WOMEN-LED COOPERATIVES</span>
+              <h2 className={styles.deepTitle}>Supporting local women, one journey at a time</h2>
               <p className={styles.deepText}>
-                Sortir des médinas surchargées de Marrakech ou Fès en haute saison.
-                Privilégier les rencontres aux selfies. Préférer une nuit chez l’habitant
-                à un hôtel international. Voici, concrètement, ce que nous proposons à
-                chacun de nos voyageurs.
+                Across Morocco, we actively work with women-led cooperatives and encourage our guests to visit and engage with at least one during their journey. Through these encounters, we help create direct opportunities for local women while offering travelers a more authentic connection to the culture.
               </p>
               <ul className={styles.deepList}>
-                <li>Itinéraires hors-saison pour désengorger les hauts-lieux</li>
-                <li>Rencontres avec habitants, artisans, agriculteurs</li>
-                <li>Slow travel&nbsp;: moins de kilomètres, plus de temps sur place</li>
-                <li>Promotion des régions méconnues (Rif, Anti-Atlas, Sahara oriental)</li>
+                <li>Direct income for women artisans and producers</li>
+                <li>Preservation of traditional craftsmanship</li>
+                <li>Ethical sourcing of argan oil, textiles, and pottery</li>
+                <li>Promoting financial independence in rural areas</li>
               </ul>
-              <a href="#" className="btn btn-primary">Voir nos itinéraires engagés</a>
+              <a href="#" className="btn btn-primary">See our partner cooperatives</a>
             </div>
           </div>
         </div>
@@ -248,13 +224,11 @@ export default function CommitmentsPage() {
       {/* REPORT */}
       <section className={styles.reportSection}>
         <div className={styles.reportContent}>
-          <h2 className={styles.reportTitle}>Notre rapport d’impact 2025</h2>
+          <h2 className={styles.reportTitle}>Our 2025 impact report</h2>
           <p className={styles.reportText}>
-            Transparence totale&nbsp;: chaque année, nous publions un bilan complet de nos
-            engagements. Découvrez comment vos voyages se traduisent en impact concret,
-            chiffres à l’appui.
+            Total transparency: every year, we publish a comprehensive review of our commitments. Discover how your travels translate into concrete impact, backed by numbers.
           </p>
-          <a href="#" className="btn btn-light">Lire le rapport (PDF)</a>
+          <a href="#" className="btn btn-light">READ THE REPORT (PDF)</a>
         </div>
       </section>
 
@@ -266,13 +240,11 @@ export default function CommitmentsPage() {
               className={styles.dualCardImage}
               style={{ backgroundImage: "url('https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&q=80&w=900')" }}
             />
-            <h3>Espace presse</h3>
+            <h3>Press area</h3>
             <p>
-              Journalistes, blogueurs, créateurs&nbsp;: retrouvez nos communiqués, visuels
-              haute définition, et contacts presse pour vos reportages sur le tourisme
-              responsable au Maroc.
+              Journalists, bloggers, creators: find our press releases, high-definition visuals, and press contacts for your reports on responsible tourism in Morocco.
             </p>
-            <a href="mailto:press@experiencemorocco.com" className="btn">Contacter la presse</a>
+            <a href="mailto:press@experiencemorocco.com" className="btn">Contact press</a>
           </article>
 
           <article className={styles.dualCard}>
@@ -280,11 +252,9 @@ export default function CommitmentsPage() {
               className={styles.dualCardImage}
               style={{ backgroundImage: "url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&q=80&w=900')" }}
             />
-            <h3>Signaler une pratique contraire à nos engagements</h3>
+            <h3>Report a practice contrary to our commitments</h3>
             <p>
-              Nous prenons très au sérieux toute pratique qui irait à l’encontre de nos
-              valeurs. Si vous êtes témoin d’une situation problématique au cours d’un
-              voyage, écrivez-nous en toute confidentialité.
+              We take any practice that goes against our values very seriously. If you witness a problematic situation during a trip, write to us in complete confidentiality.
             </p>
             <p>
               <a href="mailto:ethics@experiencemorocco.com" className={styles.contactLink}>
@@ -297,7 +267,7 @@ export default function CommitmentsPage() {
 
       {/* PREVIEW BANNER */}
       <div className={styles.previewBanner}>
-        <strong>PREVIEW</strong> Maquette de la page « Nos engagements » pour Experience Morocco — contenu d’exemple, à valider avant intégration.
+        <strong>PREVIEW</strong> "Our commitments" page mockup for Experience Morocco — sample content, to be validated before integration.
       </div>
     </>
   );

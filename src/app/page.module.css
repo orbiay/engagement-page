@@ -27,7 +27,7 @@
   font-weight: 700;
   font-size: 3.5rem;
   color: var(--white);
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
   line-height: 1.2;
 }
@@ -39,6 +39,27 @@
   max-width: 800px;
   margin: 0 auto;
   line-height: 1.6;
+  margin-top: 3rem;
+}
+
+.heroBottomText {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+  padding: 2rem 5%;
+  text-align: center;
+}
+
+.heroBottomText p {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1.15rem;
+  font-weight: 300;
+  line-height: 1.6;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .heroTagline {
