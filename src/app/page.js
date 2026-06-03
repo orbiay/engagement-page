@@ -5,6 +5,17 @@ export default function CommitmentsPage() {
     <>
       {/* HERO */}
       <section className={styles.hero}>
+        <video
+          className={styles.heroVideo}
+          autoPlay
+          muted
+          loop
+          playsInline
+        >
+          <source src="/hero-artisans.mp4" type="video/mp4" />
+          <source src="/hero-artisans.mov" type="video/quicktime" />
+        </video>
+        <div className={styles.heroOverlay} />
         <div className={styles.heroInner}>
           <h1 className={styles.heroTitle}>
             Experience Morocco more deeply, and leave it better.
@@ -12,7 +23,7 @@ export default function CommitmentsPage() {
         </div>
         <div className={styles.heroBottomText}>
           <p>
-            At Experience Morocco, we believe travel should create value for those who welcome you as much as for those who explore. Every journey is designed to support local communities, preserve traditions, and reveal Morocco in its most authentic form.
+            We design journeys that support local communities, preserve traditions, and reveal an authentic Morocco.
           </p>
         </div>
       </section>
@@ -265,10 +276,7 @@ export default function CommitmentsPage() {
         </div>
       </section>
 
-      {/* PREVIEW BANNER */}
-      <div className={styles.previewBanner}>
-        <strong>PREVIEW</strong> "Our commitments" page mockup for Experience Morocco — sample content, to be validated before integration.
-      </div>
+
     </>
   );
 }
