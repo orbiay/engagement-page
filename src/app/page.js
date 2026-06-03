@@ -1,6 +1,19 @@
+"use client";
+import { useState, useEffect } from 'react';
 import styles from './page.module.css';
 
 export default function CommitmentsPage() {
+  const [showPopup, setShowPopup] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowPopup(true);
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  const closePopup = () => setShowPopup(false);
+
   return (
     <>
       {/* HERO */}
@@ -233,7 +246,7 @@ export default function CommitmentsPage() {
       </section>
 
       {/* REPORT */}
-      <section className={styles.reportSection}>
+      <section id="impact-report" className={styles.reportSection}>
         <div className={styles.reportContent}>
           <h2 className={styles.reportTitle}>Our 2025 impact report</h2>
           <p className={styles.reportText}>
@@ -277,6 +290,15 @@ export default function CommitmentsPage() {
       </section>
 
 
+      {showPopup && (
+        <div className={styles.popupContainer}>
+          <button className={styles.popupClose} onClick={closePopup}>&times;</button>
+          <img src="/popup-image.png" alt="Magazine Cover" className={styles.popupImage} />
+          <a href="#impact-report" className={styles.popupBtn} onClick={closePopup}>
+            CHECK THIS OUT
+          </a>
+        </div>
+      )}
     </>
   );
 }
