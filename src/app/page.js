@@ -91,7 +91,7 @@ export default function CommitmentsPage() {
           <article className={styles.pillarCard}>
             <img
               className={styles.pillarImage}
-              src="https://images.unsplash.com/photo-1531219432768-9f540ec7a4ff?auto=format&fit=crop&q=80&w=900"
+              src="/cause1.jpg"
               alt="Jadara Foundation"
             />
             <div className={styles.pillarBody}>
@@ -107,7 +107,7 @@ export default function CommitmentsPage() {
           <article className={styles.pillarCard}>
             <img
               className={styles.pillarImage}
-              src="https://images.unsplash.com/photo-1489493585363-d69421e0edd3?auto=format&fit=crop&q=80&w=900"
+              src="/cause2.jpg"
               alt="Sporting Club Casablanca"
             />
             <div className={styles.pillarBody}>
@@ -123,7 +123,7 @@ export default function CommitmentsPage() {
           <article className={styles.pillarCard}>
             <img
               className={styles.pillarImage}
-              src="https://images.unsplash.com/photo-1559666126-84f389727b9a?auto=format&fit=crop&q=80&w=900"
+              src="/cause3.jpg"
               alt="Women-led Cooperatives"
             />
             <div className={styles.pillarBody}>
@@ -145,7 +145,7 @@ export default function CommitmentsPage() {
             <div className={styles.deepImageWrap}>
               <img
                 className={styles.deepImage}
-                src="https://images.unsplash.com/photo-1597211833712-5e41faa202ea?auto=format&fit=crop&q=80&w=1200"
+                src="/cause1.jpg"
                 alt="Jadara Foundation"
               />
               <div className={styles.deepBadge}>
@@ -186,7 +186,7 @@ export default function CommitmentsPage() {
             <div className={styles.deepImageWrap}>
               <img
                 className={styles.deepImage}
-                src="https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&q=80&w=1200"
+                src="/cause2.jpg"
                 alt="Sporting Club Casablanca"
               />
               <div className={styles.deepBadge}>
@@ -219,7 +219,7 @@ export default function CommitmentsPage() {
             <div className={styles.deepImageWrap}>
               <img
                 className={styles.deepImage}
-                src="https://images.unsplash.com/photo-1565689876697-e467b6c54da2?auto=format&fit=crop&q=80&w=1200"
+                src="/cause3.jpg"
                 alt="Women-led Cooperatives"
               />
               <div className={styles.deepBadge}>
@@ -262,7 +262,7 @@ export default function CommitmentsPage() {
           <article className={styles.dualCard}>
             <div
               className={styles.dualCardImage}
-              style={{ backgroundImage: "url('https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&q=80&w=900')" }}
+              style={{ backgroundImage: "url('/em-team.webp')" }}
             />
             <h3>Press area</h3>
             <p>
@@ -274,7 +274,7 @@ export default function CommitmentsPage() {
           <article className={styles.dualCard}>
             <div
               className={styles.dualCardImage}
-              style={{ backgroundImage: "url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&q=80&w=900')" }}
+              style={{ backgroundImage: "url('/report-practice.jpg')" }}
             />
             <h3>Report a practice contrary to our commitments</h3>
             <p>
